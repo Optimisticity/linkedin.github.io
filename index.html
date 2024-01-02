@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: whitesmoke;
+            color: black;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: auto;
+            padding: 15px 5px;
+        }
+
+        .Title {
+            display: flex;
+            height: 50px;
+        }
+
+        .navBrand {
+            font-family: 'Brush Script MT', cursive;
+            /* margin-right: 14px; */
+            height: 35px;
+            margin-right: 14px;
+            margin-top:auto ;
+            margin-bottom: auto;
+        }
+
+        .navIList {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        a:link,
+        a:visited {
+            color: gray;
+            text-decoration: none;
+            font-size: small;
+        }
+
+        a:hover,
+        a:active {
+            color: lightgray;
+            text-decoration: none;
+            font-size: small;
+        }
+
+        .navlinks {
+            padding: 10px;
+        }
+
+        .searchSec {
+            display: flex;
+        }
+
+        .searchInput {
+            padding: 10px;
+            height: 10px;
+            margin-top: auto;
+            margin-bottom: auto;
+            width: 300px;
+            border-radius: 14px;
+            border: 1px solid white;
+        }
+
+        /* 
+        .btn-search {
+            padding: 10px;
+            border: 2px solid green;
+            border-radius: 20px;
+            background-color: white;
+            color: green;
+            cursor: pointer;
+        } */
+
+        .for_business {
+            display: flex;
+        }
+
+        .Business {
+            margin-right: 14px;
+        }
+
+        a.Plan {
+            font-size: 10px;
+            color: blueviolet;
+        }
+    </style>
+
+</head>
+
+<body bgcolor="gray">
+
+    <div class="navbar">
+        <div class="Title">
+            <img class="navBrand" src="./linkedin.png" alt="">
+            <input type="text" class="searchInput" placeholder="Search">
+        </div>
+        <div>
+            <ul class="navIList">
+                <a href="" class="navlinks">
+                    <li>Home</li>
+                </a>
+                <a href="" class="navlinks">
+                    <li>About</li>
+                </a>
+                <a href="" class="navlinks">
+                    <li>Contact</li>
+                </a>
+                <a href="" class="navlinks">
+                    <li>Services</li>
+                </a>
+            </ul>
+        </div>
+        <div class="for_business">
+            <a class="Business" href="">For Business</a>
+            <a class="Plan" href="">Upgrade My Plan</a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
